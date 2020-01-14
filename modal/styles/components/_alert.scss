@@ -1,0 +1,30 @@
+#open-modal{
+    
+    height: 300px;
+    width: 400px;
+    background-color: $modalColor;
+    text-align: center;
+    padding-top: 20px;    
+    opacity: 0;
+    transition: 0.8s;
+    
+    .close{
+        @include link;
+        line-height: 40px;
+    }
+    &::after{      
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f410";
+        font-weight: 900;
+        font-size: $fontSize;  
+        color: $fontColor;
+        
+
+    }
+   
+}
+
+#open-modal:target{
+    transition: 1s;
+    opacity: 1;
+}

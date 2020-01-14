@@ -1,0 +1,23 @@
+body{
+    font-size: $fontSize;
+    margin: 0;
+    padding: 0;
+    background-color: $backColor;
+    display: flex;       
+    justify-content:space-between;
+    .abrir {
+        margin-top: 20px;
+        a{        
+        font-family: $fontFamily;
+        margin-right:20px;
+        text-decoration: none;
+        color: $linkColor;
+        
+    }
+}
+}
+#menu:target {
+    display: block;
+    transform: translateX(370px);
+    
+}

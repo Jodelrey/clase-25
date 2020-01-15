@@ -11,11 +11,12 @@
         background-size: 200%;
         font-size: $fontSize;
         font-weight: 600;
+        &:hover {
+            background-position: right center;
+            border:none;        
+        }
     }
-    .button:hover {
-        background-position: right center;
-        border:none;        
-    }
+    
 }
 
 .button1 {

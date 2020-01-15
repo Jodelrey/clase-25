@@ -23,10 +23,9 @@
     font-weight: 900;
     font-size: 25px;
     color: #d7c79e; }
-
-#open-modal:target {
-  transition: 1s;
-  opacity: 1; }
+  #open-modal:target {
+    transition: 1s;
+    opacity: 1; }
 
 body {
   margin: 0;
@@ -61,9 +60,9 @@ body {
     background-size: 200%;
     font-size: 25px;
     font-weight: 600; }
-  .botones .button:hover {
-    background-position: right center;
-    border: none; }
+    .botones .button:hover {
+      background-position: right center;
+      border: none; }
 
 .button1 {
   background: linear-gradient(to right, #bd574e, #ffad87); }

@@ -21,10 +21,12 @@
         
 
     }
+
+    
+    &:target{   
+    transition: 1s;
+    opacity: 1;
+    }
    
 }
 
-#open-modal:target{
-    transition: 1s;
-    opacity: 1;
-}

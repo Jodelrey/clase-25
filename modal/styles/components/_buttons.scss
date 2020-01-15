@@ -1,0 +1,36 @@
+.botones{
+    background-color: #698474;
+    height: 100vh;
+    width: 100%;
+    .button {
+        width: 200px;
+        height: 50px;   
+        border-radius: 20px;
+        border: 1.5px solid #cccccc;
+        color: #cccccc;
+        background-size: 200%;
+        font-size: $fontSize;
+        font-weight: 600;
+    }
+    .button:hover {
+        background-position: right center;
+        border:none;        
+    }
+}
+
+.button1 {
+    background: linear-gradient( to right, #bd574e, #ffad87);
+  
+}
+.button2 {
+    background: linear-gradient( to right, #808080, #ffa375);
+}
+
+.button3 {
+    background: linear-gradient( to right, #408080, #808080);
+}
+
+.button4 {
+    background: linear-gradient( to right, #8080ff, #ff8080);
+
+}

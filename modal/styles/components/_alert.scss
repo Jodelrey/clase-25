@@ -1,11 +1,13 @@
 #open-modal{
-    
+    position: fixed;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
     height: 300px;
     width: 400px;
     background-color: $modalColor;
     text-align: center;
     padding-top: 20px;    
-    opacity: 0;
+    display: none;
     transition: 0.8s;
     
     .close{
@@ -25,7 +27,7 @@
     
     &:target{   
     transition: 1s;
-    opacity: 1;
+    display: block;
     }
    
 }
